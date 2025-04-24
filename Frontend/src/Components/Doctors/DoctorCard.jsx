@@ -11,10 +11,11 @@ const DoctorCard = ({ doctor }) => {
             </div>
             <h2 className='text-[18px] leading-[30px] lg:text-[26px] lg:leading-9 text-headingColor font-[700] mt-3 lg:mt-5'>{name}</h2>
             <div className="mt-2 lg:mt-4 flex items-center justify-between">
-                <span className='bg-[#CCF0F3] text-irirsBlueColor pu-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 rounded font-semibold '>{specialization}</span>
+                <span className='bg-[#CCF0F3] text-irirsBlueColor pu-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 rounded font-semibold '>Surgeon</span>
+                {/* <span className='bg-[#CCF0F3] text-irirsBlueColor pu-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 rounded font-semibold '>{specialization}</span> */}
 
 
-                <div className=" flex items-center gap-[6px]" style={{ display: "flex", flexDirection: "row" }}>
+                <div className=" flex items-center gap-[6px]" style={{ display: "flex", flexDirection: "row" }}> 
                     <span className='"flex items-center gap-[6px] text-[14px] leading-6 lg:text-[16px] lg:leading-7 font-semibold text-headingColor'>
 
                         <img src={startIcon} alt="starticon" />
@@ -29,7 +30,8 @@ const DoctorCard = ({ doctor }) => {
                 <div>
                     {/* <h3 className='text-[16px] leading-7 lg:text-[18px]  lg:leading-[30px] font-semibold text-textColor'> +{totalPatients} patients
                     </h3> */}
-                    <p className="text-[14px] leading-6 font-[400] text-textColor">At {experiances && experiances[0]?. hospital}</p>
+                    {/* <p className="text-[14px] leading-6 font-[400] text-textColor">At {experiances && experiances[0]?. hospital}</p> */}
+                    <p className="text-[14px] leading-6 font-[400] text-textColor">At appolo Hospital </p>
 
 
                 </div>

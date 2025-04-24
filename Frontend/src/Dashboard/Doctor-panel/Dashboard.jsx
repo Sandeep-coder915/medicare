@@ -4,7 +4,7 @@ import Error from '../../Error/Error'
 import userGetProfile from '../../hooks/useFetchData'
 import { BASE_URL } from '../../../config'
 import TABS from './TABS'
-import vrinda from '../../assets/images/doctor-img03.png'
+// import vrinda from '../../assets/images/doctor-img03.png'
 import starticon from '../../assets/images/Star.png'
 import DoctorAbout from '../../pages/Doctors/DoctorAbout'
  
@@ -59,7 +59,7 @@ const Dashboard = (doctor) => {
               {tab === 'overview' && (<div>
 
                 <div className="flex items-center gap-4 mb-10">
-                  <figure className='max-w-[200px] max-h-[200px]'><img src={vrinda} alt="" className='w-full' /></figure>
+                  <figure className='max-w-[200px] max-h-[200px]'></figure>
                   <div>
                     <span className='bg-[#CCF0F3] text-irisBLueColor py-2 px-4 lg:py-2 lg:px-6 rounded-md'>{doctor.specilization} surgen</span>
                     <h3 className='text-[22px] leading-9 font-bold text-headingColor mt-3'>{data.name} </h3>
