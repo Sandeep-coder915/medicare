@@ -55,6 +55,7 @@ const Header = () => {
   };
 
   return (
+    <div>
     <header ref={headerRef} className="bg-white dark:bg-gray-900 shadow-md fixed top-0 w-full z-50 transition-all duration-300">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
 
@@ -151,7 +152,10 @@ const Header = () => {
           </motion.ul>
         )}
       </AnimatePresence>
+  
     </header>
+        <div className='h-16'></div>
+        </div>
   );
 };
 
