@@ -154,7 +154,7 @@ const Header = () => {
       </AnimatePresence>
   
     </header>
-        <div className='h-16'></div>
+        <div className='h-11'></div>
         </div>
   );
 };
